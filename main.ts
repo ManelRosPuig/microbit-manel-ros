@@ -6,14 +6,14 @@ function interact(interval: number) {
     basic.clearScreen()
     i = 1
     while (i < interval + 1) {
-        basic.showString("" + ("" + fibo(i)))
+        basic.showString("" + ("" + factorial(i)))
         basic.pause(100)
         basic.clearScreen()
         i += 1
     }
 }
 
-function fibo(n: number): number {
+function factorial(n: number): number {
     let result = 1
     for (let i = 1; i < n + 1; i++) {
         result *= i

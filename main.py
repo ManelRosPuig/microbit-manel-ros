@@ -6,11 +6,11 @@ def interact(interval: number):
     basic.clear_screen()
     i = 1
     while i < interval + 1:
-        basic.show_string("" + str(fibo(i)))
+        basic.show_string("" + str(factorial(i)))
         basic.pause(100)
         basic.clear_screen()
         i += 1
-def fibo(n):
+def factorial(n):
     result = 1
     for i in range(1, n + 1):
         result *= i
