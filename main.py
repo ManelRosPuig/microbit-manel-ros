@@ -10,13 +10,6 @@ def interact(interval: number):
         basic.pause(100)
         basic.clear_screen()
         i += 1
-# def fibo(n: number):
-#     if n == 1:
-#         return 1
-#     elif n == 2:
-#         return 1
-#     else:
-#         return fibo(n - 1) + fibo(n - 2)
 def fibo(n):
     result = 1
     for i in range(1, n + 1):
@@ -35,7 +28,7 @@ def numElements():
             bclicked += 1
         basic.pause(50)
     basic.clear_screen()
-    basic.show_string("Nuria")
+    basic.show_string("Raimon")
     interact(atimes)
 def showIcon():
     basic.clear_screen()

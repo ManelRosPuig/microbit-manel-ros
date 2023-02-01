@@ -13,13 +13,6 @@ function interact(interval: number) {
     }
 }
 
-//  def fibo(n: number):
-//      if n == 1:
-//          return 1
-//      elif n == 2:
-//          return 1
-//      else:
-//          return fibo(n - 1) + fibo(n - 2)
 function fibo(n: number): number {
     let result = 1
     for (let i = 1; i < n + 1; i++) {
@@ -44,7 +37,7 @@ function numElements() {
         basic.pause(50)
     }
     basic.clearScreen()
-    basic.showString("Nuria")
+    basic.showString("Raimon")
     interact(atimes)
 }
 
